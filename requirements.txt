@@ -1,0 +1,4 @@
+crewai==1.9.3
+duckduckgo-search==8.1.1
+streamlit==1.54.0
+python-dotenv==1.1.1
