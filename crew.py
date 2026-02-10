@@ -1,10 +1,3 @@
-"""AI Learning Center Support Crew
-
-Multi-agent system that answers user questions using a three-tier approach:
-  1. Policy Agent: Checks company policy documents first
-  2. Offline Agent: Uses internal knowledge for general questions
-  3. Web Agent: Searches the web when needed for current information
-"""
 
 """AI Learning Center Support Crew
 

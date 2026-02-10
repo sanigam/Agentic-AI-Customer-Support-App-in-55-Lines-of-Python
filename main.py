@@ -5,6 +5,10 @@ A simple web UI for the multi-agent customer support system that:
 - Suppresses verbose logging for cleaner output
 - Extracts and displays the final answer from the agent response
 """
+# Disable CrewAI telemetry to avoid signal-handler errors in Streamlit threads
+import os
+os.environ["OTEL_SDK_DISABLED"] = "true"
+
 import streamlit as st
 from crew import support_crew # Import the crew we just built
 
